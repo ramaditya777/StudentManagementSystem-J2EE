@@ -1,0 +1,84 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+#addStudentBtn{
+	  text-align: left;
+	 margin-left :150px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#studentTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#studentTable th, #studentTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#studentTable th {
+    background-color: #f2f2f2;
+}
+
+#studentTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#studentTable tbody tr:hover {
+    background-color: #ddd;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.actions form {
+    margin-right: 5px;
+}
+/* Style for the update and delete buttons container */
+.button-container {
+    display: flex; /* Use flexbox */
+}
+
+/* Style for the update and delete buttons */
+button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 5px 10px; /* Padding for button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer on hover */
+    margin: 5px; /* Margin between buttons */
+}
+
+
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+

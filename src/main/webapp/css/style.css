@@ -1,0 +1,21 @@
+
+body{
+	text-align : center;
+}
+/* Style for the content */
+.content {
+    /* Add styles for the content if needed */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Text color */
+}
+
+/* Style for the button */
+button {
+    /* Add styles for the button if needed */
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer on hover */
+}

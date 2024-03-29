@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container form input[type="text"],
+.container form input[type="tel"], /* Changed from number to tel */
+.container form input[type="email"],
+.container form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #0056b3;
+}
